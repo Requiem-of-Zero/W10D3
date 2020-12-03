@@ -1,0 +1,100 @@
+/* @font-face {
+  font-family: 'Nerko One';
+  /* font-style: normal;
+  font-weight: 400;
+  font-display: swap; */
+  /* src: url(https://fonts.gstatic.com/s/nerkoone/v1/m8JQjfZSc7OXlB3ZMOjDeZRAVmo.woff2) format('woff2'); */
+  /* unicode-range: U+0100-024F,
+  U+0259,
+  U+1E00-1EFF,
+  U+2020,
+  U+20A0-20AB,
+  U+20AD-20CF,
+  U+2113,
+  U+2C60-2C7F,
+  U+A720-A7FF; **/
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* display: flex; 
+    justify-content: space-between; */
+}
+
+.parent {
+  /* display: flex;
+  justify-content: center; */
+  font-family: 'Nerko One', cursive;
+  padding: 10px; 
+  /* background-color: grey; 
+  color: yellow; */
+  background-image: none;
+  /* width: 80%;  */
+  margin: 0 auto; 
+  /* border: 2px black solid;  */
+  font-size: 20px; 
+  text-align: center;
+}
+
+.first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.time-date {
+  display: flex; 
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
+  width: 40%;
+  background-color: grey;
+  color: yellow;
+  border: 2px solid black; 
+  text-align: left;
+  
+}
+/* 
+.clock {
+  
+} */
+
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock-wrapper-2 {
+  width: 500px;
+}
+
+
+.time-date > span {
+  margin-top: 7px;
+  margin-left: 7px;
+  /* margin-bottom: -5px; */
+}
+/* .date {
+  display: flex; 
+  justify-content: space-evenly;
+} */
+/* .child-date {
+    display: flex; 
+    justify-content: center;
+
+}  */
+.clock p{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-header {
+  display: flex;
+}
+/* .time-date .date > p{
+  display: flex;
+  justify-content: space-between;
+} */
